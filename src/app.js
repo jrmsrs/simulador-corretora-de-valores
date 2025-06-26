@@ -4,7 +4,7 @@ import dotenv from 'dotenv';
 import helmet from 'helmet';
 import routes from './routes/index.js';
 import './config/database.js';
-import { sequelize } from './models/index.js';
+import sequelize from './models/index.js';
 
 dotenv.config();
 
